@@ -8,6 +8,7 @@ import * as ImagePicker from 'expo-image-picker';
 import PlaceholderImage from './assets/background-image.png';
 
 export default function App() {
+  const [showAppOptions, setShowAppOptions] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const pickImageAsync = async () =>{
     let result = await ImagePicker.launchImageLibraryAsync({
@@ -17,7 +18,7 @@ export default function App() {
     if (!result.canceled){
       // console.log(result);
       setSelectedImage(result.assets[0].uri);
-
+      setShowAppOptions(true);
     }else{
       alert('Tu no seleccionaste una imagen');
     }
@@ -31,10 +32,14 @@ export default function App() {
           selectedImage={selectedImage}
         />
       </View>
-      <View style={styles.footerContainer}>
-        <Button theme="primary" label="Escoge una photo" onPress={pickImageAsync} />
-        <Button label="Use esta Foto" />
-      </View>
+      { showAppOptions ? (
+        <View />
+      ) : (
+        <View style={styles.footerContainer}>
+          <Button theme="primary" label="Escoge una photo" onPress={pickImageAsync} />
+          <Button label="Use esta Foto" onPress={() => setShowAppOptions()} />
+        </View>
+      )}
       <StatusBar style="auto" />
     </View>
   );
