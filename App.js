@@ -70,7 +70,7 @@ export default function App() {
       ) : (
         <View style={styles.footerContainer}>
           <Button theme="primary" label="Escoge una photo" onPress={pickImageAsync} />
-          <Button label="Use esta Foto" onPress={() => setShowAppOptions()} />
+          <Button label="Use esta Foto" onPress={() => setShowAppOptions(true)} />
         </View>
       )}
       <EmojiPicker isVisible={isModalVisible} onClose={onModalClose}>
