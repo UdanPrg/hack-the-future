@@ -1,11 +1,14 @@
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import {StyleSheet, View } from 'react-native';
-import ImageViewer from './components/ImageViewer';
-import Button from './components/Buttons';
 import * as ImagePicker from 'expo-image-picker';
 
 import PlaceholderImage from './assets/background-image.png';
+
+import ImageViewer from './components/ImageViewer';
+import Button from './components/Buttons';
+import CircleButton from './components/CircleButton';
+import IconButton from './components/IconButton';
 
 export default function App() {
   const [showAppOptions, setShowAppOptions] = useState(false);
@@ -24,6 +27,18 @@ export default function App() {
     }
   }
 
+  const onReset = () => {
+    setShowAppOptions(false);
+  };
+
+  const onAddSticker = () => {
+    // we will implement this later
+  };
+
+  const onSaveImageAsync = async () => {
+    // we will implement this later
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>
@@ -33,7 +48,13 @@ export default function App() {
         />
       </View>
       { showAppOptions ? (
-        <View />
+        <View style={styles.optionsContainer}>
+          <View style={styles.optionsRow}>
+            <IconButton icon="refresh" label="Reset" onPress={onReset} />
+            <CircleButton onPress={onAddSticker} />
+            <IconButton icon="save-alt" label="Save" onPress={onSaveImageAsync} />
+          </View>
+        </View>
       ) : (
         <View style={styles.footerContainer}>
           <Button theme="primary" label="Escoge una photo" onPress={pickImageAsync} />
@@ -59,5 +80,13 @@ const styles = StyleSheet.create({
   footerContainer:{
     flex: 1 / 3,
     alignItems: 'center'
+  },
+  optionsContainer: {
+    position: 'absolute',
+    bottom: 80,
+  },
+  optionsRow: {
+    alignItems: 'center',
+    flexDirection: 'row',
   }
 });
