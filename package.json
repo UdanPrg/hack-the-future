@@ -11,8 +11,10 @@
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@expo/webpack-config": "^18.0.1",
+    "dom-to-image": "^2.6.0",
     "expo": "~48.0.9",
     "expo-image-picker": "~14.1.1",
+    "expo-media-library": "~15.2.3",
     "expo-status-bar": "~1.4.4",
     "help": "^3.0.2",
     "react": "18.2.0",
@@ -20,6 +22,7 @@
     "react-native": "0.71.6",
     "react-native-gesture-handler": "~2.9.0",
     "react-native-reanimated": "~2.14.4",
+    "react-native-view-shot": "3.5.0",
     "react-native-web": "~0.18.10"
   },
   "devDependencies": {
