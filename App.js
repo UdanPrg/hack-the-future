@@ -7,6 +7,13 @@ import * as MediaLibrary from 'expo-media-library';
 import { captureRef } from 'react-native-view-shot';
 import DomToImage from 'dom-to-image';
 
+// delete when finished dev
+import * as SplashScreen from 'expo-splash-screen';
+SplashScreen.preventAutoHideAsync();
+setTimeout(SplashScreen.hideAsync, 10000);
+//--<
+
+
 import PlaceholderImage from './assets/background-image.png';
 
 import ImageViewer from './components/ImageViewer';
@@ -116,7 +123,7 @@ export default function App() {
       <EmojiPicker isVisible={isModalVisible} onClose={onModalClose}>
         <EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
       </EmojiPicker>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </GestureHandlerRootView>
   );
 }
