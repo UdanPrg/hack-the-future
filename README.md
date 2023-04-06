@@ -17,13 +17,14 @@ La smpl-Image-Editor es una aplicación móvil sencilla que se construye de mome
 - Descarga Expo Go en tu dispositivo móvil(Android o iOS)
 
 ### Instrucciones
-- Clona o descarga el repositorio en tu computadora. (usa el siguiente comando)
+**Clona o descarga el repositorio en tu computadora. (usa el siguiente comando)**
 
-    ```git clone https://github.com/UdanPrg/smpl-image-editor.git```
+    git clone https://github.com/UdanPrg/smpl-image-editor.git
 
 - Abre una terminal en la carpeta del proyecto.
-- Ejecuta el comando *npm install* para instalar las dependencias necesarias.
-    ```npm install```
+
+Ejecuta el comando *npm install* para instalar las dependencias necesarias.
+    npm install
 
 - Ejecuta el comando *npx expo start* para iniciar la aplicación.
     ```npx expo start```
