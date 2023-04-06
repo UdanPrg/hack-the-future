@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "hack-the-future",
-    "slug": "hack-the-future",
+    "name": "smpl-image-editor",
+    "slug": "smpl-image-editor",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icono.png",

@@ -8,9 +8,9 @@ import { captureRef } from 'react-native-view-shot';
 import DomToImage from 'dom-to-image';
 
 // delete when finished dev
-import * as SplashScreen from 'expo-splash-screen';
-SplashScreen.preventAutoHideAsync();
-setTimeout(SplashScreen.hideAsync, 10000);
+// import * as SplashScreen from 'expo-splash-screen';
+// SplashScreen.preventAutoHideAsync();
+// setTimeout(SplashScreen.hideAsync, 5000);
 //--<
 
 
