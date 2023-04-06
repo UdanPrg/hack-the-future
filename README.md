@@ -21,9 +21,10 @@ La smpl-Image-Editor es una aplicación móvil sencilla que se construye de mome
 
     git clone https://github.com/UdanPrg/smpl-image-editor.git
 
-- Abre una terminal en la carpeta del proyecto.
+Abre una terminal en la carpeta del proyecto.
 
 Ejecuta el comando *npm install* para instalar las dependencias necesarias.
+
     npm install
 
 - Ejecuta el comando *npx expo start* para iniciar la aplicación.
