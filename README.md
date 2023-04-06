@@ -31,7 +31,7 @@ Ejecuta el comando *npx expo start* para iniciar la aplicación.
 
     npx expo start
 
-- Escanea el código QR(de preferencia desde **Expo Go**), con tu dispositivo móvil para abrir la aplicación.
+- Escanea el código QR que apareción en la terminal (de preferencia desde **Expo Go**), con tu dispositivo móvil para abrir la aplicación.
 
 ### Uso
 Para explorar las funciones de ***smpl-imge-editor*** puedes interactuar con los botones de *Elegir/usar ...foto*. Puede elegir la imagen de su galerái. Al alegirla, le apareceran tres botones, con los que podrá:
