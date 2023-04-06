@@ -49,3 +49,12 @@ Si deseas descargar la aplicación puedes hacerlo a travez del siguiente código
 
 ---------------------------- 
 (*Nota: Toma en cuenta que por ser una un archivo .apk este puesde presentar inconvenientes al momento de intentar instalarla en tu dispositivo, ya que la detecta como una aplicación peligrosa, pero descuida, puedes revisar el código y las paquetes que se han instalado en el proyecto y considerar el riesgo. Personalmente, la tengo instalada en mi dispositivo y no he presentado inconvenientes. Gracias por el interes en el proyecto!!!* )
+
+
+**Installing dependencies:**
+
+    npm install && npm install --prefix client
+
+**Running both server and client concurrently:**
+
+    npm run dev
