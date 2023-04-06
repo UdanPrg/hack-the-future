@@ -19,7 +19,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icono.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.udan.mega.hackthefuture"
@@ -29,8 +29,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "dd48f0b1-96cb-42c7-b034-e41f712bf1f5"
+        "projectId": "ce5dc0ff-5de0-457c-9526-7d4b2fe13b93"
       }
-    }
+    },
+    "owner": "udan.mega"
   }
 }
