@@ -50,7 +50,7 @@ Si deseas descargar la aplicación puedes hacerlo a travez del siguiente código
 
 ![Código QR](/assets/QR-smpl-image-editor.jpg "smpl-image-editor")
 
-O haciendo click en el siguiente en enlace --> [smpl-image-editor](/assets/QR-smpl-image-editor.jpg)
+O haciendo click en el siguiente en enlace --> [smpl-image-editor](https://expo.dev/accounts/udan.mega/projects/smpl-image-editor/builds/279cbb1c-bbd4-44d5-a529-67985192b5e0)
 
 ---------------------------- 
 (*Nota: Toma en cuenta que por ser una un archivo .apk externo que no ha pasado por revisión de plataformas de distribución de aplicaciones, este puesde presentar inconvenientes al momento de intentar instalarla en tu dispositivo, ya que la detecta como una aplicación reisgosa, pero descuida, puedes revisar el código y las paquetes que se han instalado en el proyecto, en el archivo ***package.json*** y considerar el riesgo. Personalmente, la tengo instalada en mi dispositivo y no he presentado inconvenientes. Gracias por el interes en el proyecto!!!* )
